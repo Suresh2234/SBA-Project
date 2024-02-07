@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 120px;
+    background-color: black;
+    height: 31px;
+    margin-top: 15px;
+
+}
+
+.logo span {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.card {
+    width: 290;
+    height: 240px;
+    padding: 20px 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+
+}
